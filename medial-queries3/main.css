@@ -1,3 +1,87 @@
 body {
-  background: peachpuff;
+  background: papayawhip;
+}
+
+.container {
+  display: flex;
+  border: 2px solid maroon;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+#item {
+  border: 2px solid maroon;
+  background-color: #e7a68a;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+#row {
+
+}
+
+.row1 {
+  height: 41%;
+  flex: 100%;
+}
+
+.row2 {
+  height: 49%;
+  flex: 100%;
+  display: flex;
+}
+
+.block1 {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block2 {
+  flex: 1;
+}
+
+.a {
+  height: 100%;
+}
+
+.b {
+  height: 46%;
+  flex: 20%;
+}
+
+.c {
+  height: 46%;
+  flex: 20%;
+}
+
+.d {
+  height: 46%;
+  flex: 20%;
+}
+
+.e {
+  height: 46%;
+  flex: 20%;
+}
+
+.f {
+  height: 46%;
+  flex: 20%;
+}
+
+.g {
+  flex: 20%;
+  height: 46%;
+}
+
+.h {
+  height: 100%;
 }

@@ -1,3 +1,77 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  display: flex;
+  border: 2px solid maroon;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+#item {
+  border: 2px solid maroon;
+  background-color: #e7a68a;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+#row {
+
+}
+
+.row1 {
+  height: 30%;
+  flex: 100%;
+}
+
+.row2 {
+  height: 60%;
+  flex: 100%;
+  display: flex;
+}
+
+.block1 {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block2 {
+  flex: 1;
+}
+
+.a {
+  height: 100%;
+}
+
+.b {
+  height: 47%;
+  flex: 100%;
+}
+
+.c {
+  height: 47%;
+  flex: 1;
+}
+
+.d {
+  height: 47%;
+  flex: 1;
+}
+
+.e {
+  height: 47%;
+  flex: 1;
+}
+
+.f {
+  height: 100%;
+}
